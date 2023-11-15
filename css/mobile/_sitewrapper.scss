@@ -1,0 +1,102 @@
+.site_wrapper {
+    display: block;
+}
+
+.landing_page {
+    background-image: url('../assets/images/droptrans-background-eth-landing.webp');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing_text_container {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0px);
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    bottom: 15vh;
+}
+
+.landing_text {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.page_two {
+    position: relative;
+    display: flex;
+}
+
+.aside_image_container {
+    background-image: url('../assets/images/droptrans-image-cafe-aside.webp');
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main_page {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+aside {
+    position: absolute;
+}
+
+.first_article,
+.second_article {
+    min-height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 5rem;
+}
+
+.text {
+    padding: 1rem;
+    font-size: large;
+    line-height: 1.6;
+}
+
+.page_two_img {
+    object-fit: cover;
+    max-width: 60vw;
+    max-height: 40vh;
+    border-radius: 8px;
+}
+
+figure{
+    position: relative;
+}
+
+.filter{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 60vw;
+    max-height: 40vh;
+    border-radius: 8px;
+}
+
+.filter:hover{
+    backdrop-filter: sepia(100%);
+}

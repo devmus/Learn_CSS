@@ -1,0 +1,17 @@
+@import 'reset/reset';
+
+@import 'mobile/mobile';
+
+@import 'mobile/header';
+
+@import 'mobile/sitewrapper';
+
+@import 'mobile/cookie';
+
+@media screen and (min-width: 1024px) {
+    @import 'desktop/header';
+
+    @import 'desktop/sitewrapper';
+
+    @import 'desktop/cookie';
+}

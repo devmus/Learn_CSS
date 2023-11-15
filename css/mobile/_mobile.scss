@@ -1,0 +1,22 @@
+html,
+body {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
